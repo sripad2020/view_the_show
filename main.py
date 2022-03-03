@@ -6,7 +6,7 @@ from telegram.ext.callbackcontext import CallbackContext
 from telegram.ext.commandhandler import CommandHandler
 from telegram.ext.messagehandler import MessageHandler
 from telegram.ext.filters import Filters
-updater = Updater("5209684200:AAG-dUJgZ5WlJZriJpqRuWfZqFx77_gUjtE",use_context=True)
+updater = Updater("use your telegram api key by BOTFATHER",use_context=True)
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("Hello user, Welcome to the Bot Please write /help to see the commands available.")
 def help(update: Update, context: CallbackContext):
