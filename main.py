@@ -27,7 +27,9 @@ def help(update: Update, context: CallbackContext):
     /movies_chandigarh--------->book my show movies at chandigarh
     /movies_pune---------------->book my show movies at pune
     /movies_chennai-------------->book my show movies at chennai
-    /movies_kolkata---------------->book my show movies at kolkata""")
+    /movies_kolkata---------------->book my show movies at kolkata
+    /<enter the ip address for the searching>---------->shows the Ip information which was given
+    user can cross check the movies from book my show website""")
 def ip(update:Update, context:CallbackContext):
     google=socket.gethostbyname('www.google.com')
     amazon = socket.gethostbyname('www.amazon.com')
